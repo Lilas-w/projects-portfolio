@@ -12,7 +12,7 @@ export const projects = [
         title: "Tours",
         subtitle: "useState useEffect",
         description:
-            "使用useEffect获取外部API，渲染列表；单个条目的详情介绍部分设置read more功能",
+            "使用useEffect请求外部API，渲染列表；单个条目的详情介绍部分设置read more功能",
         image: "img/tours.webp",
         link: "https://lilas-w.github.io/react-projects/02-tours/setup/build/index.html",
         github: "https://github.com/Lilas-w/react-projects/tree/main/02-tours/setup"
@@ -45,7 +45,7 @@ export const projects = [
     }, {
         title: "Tabs",
         subtitle: "useState useEffect",
-        description: "使用useEffect和fetch获取外部API，定义loading、jobs、value状态，点击姓名渲染对应数据",
+        description: "使用useEffect和fetch请求外部API，定义loading、jobs、value状态，点击姓名渲染对应数据",
         image: "img/tabs.png",
         link: "https://lilas-w.github.io/react-projects/06-tabs/setup/build/index.html",
         github: "https://github.com/Lilas-w/react-projects/tree/main/06-tabs/setup"
@@ -94,11 +94,19 @@ export const projects = [
         github: "https://github.com/Lilas-w/react-projects/tree/main/13-stripe-submenus/setup"
     },
     {
-        title: "cart",
+        title: "Cart",
         subtitle: "useReducer useContext useState useEffect",
         description: "实现购物车。具有清空购物车、增删单品、计算总数量、总价格功能。使用useContext+useReducer优化性能",
         image: "img/cart.png",
         link: "https://lilas-w.github.io/react-projects/14-cart/setup/build/index.html",
         github: "https://github.com/Lilas-w/react-projects/tree/main/14-cart/setup"
+    },
+    {
+        title: "Movie Search",
+        subtitle: "useReducer useState useEffect axios",
+        description: "请求外部API，使用useState useEffect useReducer函数实现一个具有电影搜索功能的网站，单击“HOOKED”可刷新页面",
+        image: "img/movie.png",
+        link: "https://lilas-w.github.io/React-hooks-projects/movie-search/build/index.html",
+        github: "https://github.com/Lilas-w/React-hooks-projects/tree/main/movie-search"
     }
 ];
